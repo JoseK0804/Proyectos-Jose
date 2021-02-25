@@ -1,0 +1,205 @@
+.Texto {
+	padding: 30px;
+}
+.Texto::first-line {
+	color: red;
+}
+.Texto::first-letter {
+	color: blue;
+	font-size: 30px;
+}
+.Text::placeholder {
+	color: red;
+}
+.Texto2 {
+	margin-top: 40px;
+}
+.Texto2::selection {
+	color: blue;
+	background: red;
+}
+.Bya {
+	font-size: 50px;
+	color: blue;
+}
+.Bya::before {
+	content: "Este ";
+	color: yellow;
+}
+.Bya::after {
+	content: " en linea";
+	color: red;
+}
+.segundaparte {
+	background: blue;
+}
+.Titulo {
+	font-size: 70px;
+}
+.Prueba1 {
+	height: 200px;
+	width: 200px;
+	background: violet;
+	transition: background 1s, height 1s, width 1s;
+}
+.Prueba1:hover {
+	background: red;
+	height: 400px;
+	width: 400px;
+}
+.Prueba2 {
+	height: 50px;
+	width: 100px;
+	background: yellowgreen;
+	transition: all 1s;
+}
+.Prueba2:hover {
+	height: 100px;
+	width: 150px;
+	background: red;
+}
+.prueba3:link {
+	background: black;
+	color: white;
+}
+.prueba3:visited {
+	background: white;
+	color: black;
+}
+.prueba4:link {
+	background: yellow;
+	color: red;
+}
+.prueba4:visited {
+	background: red;
+	color: yellow;
+}
+/*
+EL VISITED NO FUNCIONA POR EL NAVEGADOR
+*/
+.prueba5 {
+	height: 250px;
+	width: 250px;
+	color: indigo;
+	margin: 100px;
+	background: red;
+	transition: all 1s;
+}
+.prueba5:active {
+	background: yellow;
+	height: 400px;
+	width: 400px;
+}
+
+.prueba7 {
+	background: grey;
+	margin: 10px;
+	transition: 1s;
+}
+.prueba7:focus {
+	background: white;
+	padding: 10px;
+}
+.prueba8 b:lang(es) {
+	background: red;
+}
+.prueba8 b:lang(en) {
+	background: yellow;
+}
+.TerceraParte {
+	background: red;
+
+}
+.prueba9 {
+	height: 500px;
+	width: 200px;
+	background: black;
+	margin: 10px;
+
+}
+.prueba10 {
+	border: 5px solid yellow;
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+.prueba11 {
+	height: 500px;
+	width: 200px;
+	background: black;
+	margin: 10px;
+
+}
+.prueba12 {
+	border: 5px solid yellow;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.prueba13 {
+	height: 500px;
+	width: 200px;
+	background: black;
+	margin: 10px;
+
+}
+.prueba14 {
+	border: 5px solid yellow;
+	height: 100%;
+	width: 100%;
+	object-fit: none;
+}
+.prueba15 {
+	height: 500px;
+	width: 200px;
+	background: black;
+	margin: 10px;
+
+}
+.prueba16 {
+	border: 5px solid yellow;
+	height: 100%;
+	width: 100%;
+	object-fit: scale-down;
+}
+.prueba20 {
+	display: flex;
+	flex-wrap: wrap;
+}
+.prueba17 {
+	flex: 1;
+	display: flex;
+	margin: 3px;
+	border: 3px solid red;
+	min-width: 100px;
+	height: 100px;
+}
+.prueba18 {
+	object-fit: cover;
+	height: 100%;
+	width: 100%
+}
+.parte1 {
+	margin: 50px;
+	width: 100px;
+	height: 100px;
+
+}
+.parte2 {
+	object-fit: none;
+	height: 100%;
+	width: 100%;
+	object-position: right;
+}
+.parte3 {
+	object-fit: none;
+	height: 100%;
+	width: 100%;
+	object-position: left;
+}
+.parte4 {
+	object-fit: none;
+	height: 100%;
+	width: 100%;
+	object-position: top;
+}

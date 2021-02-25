@@ -1,0 +1,13 @@
+.contenedor{
+	background: #00f;
+	height: 200px;
+	width: 200px;
+	align-content: center; 
+	padding: 7px;
+}
+.item {
+	background: #fff;
+	margin-top: 100px;
+	padding: 7px;
+	margin-left: 7px;
+}

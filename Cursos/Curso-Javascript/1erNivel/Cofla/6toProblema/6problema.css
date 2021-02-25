@@ -1,0 +1,46 @@
+body {
+	background: #Ccc;	
+	font-family: arial;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.flex-item {
+	flex-grow: 1;
+	margin: 20px;
+	max-width: 300px;
+	border: 3px solid #000;
+	padding: 20px;
+	background: #Fff;
+	box-shadow: 0px 0px 15px #000;
+}
+.flex-item:hover {
+	border: 3px solid #00f;
+}
+
+.flex-item:focus {
+	border: 5px solid #f00;
+}
+
+.llave-img {
+	width: 300px;
+}
+
+.precio {
+	color: #0f0
+}
+form {
+	text-align: center;
+}
+.boton {
+	border: 3px solid #000;
+	padding: 20px;
+	background: #Fff;
+	box-shadow: 0px 0px 15px #000;
+	font-size: 30px;
+}
+.volver {
+	font-size: 25px;
+}

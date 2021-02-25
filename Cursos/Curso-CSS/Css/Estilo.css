@@ -1,0 +1,47 @@
+/*
+Este archivo corresponde a Ejericicio.Html; aca se encuentra como
+usar los colores, los selectores, Metodologia Bem y especificidad
+*/
+* {
+	color: orange;
+}
+
+h2 {
+	color: red;
+}
+
+h1 {
+	color: purple;
+}
+button {
+	color: yellow;
+}
+p {
+	color: green;
+}
+.Nueva {
+	color: blue;
+}
+#Element-id {
+	color: brown;
+}
+[atribute="new"]{
+	color: fuchsia; 
+}
+p b {
+	color: gray;
+}
+a:hover{
+	color:silver;
+}
+.Color {
+	color: red;
+}
+li {
+	color:violet !important;
+}
+
+.Form__input--Avtive{
+	color: red;
+}
+.Form__input

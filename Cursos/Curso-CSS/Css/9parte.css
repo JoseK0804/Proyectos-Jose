@@ -1,0 +1,41 @@
+.flex-container	{
+	display: flex;
+	justify-content: flex-start;
+	height: 100vh;
+	flex-direction:: row-reverse;
+	flex-wrap: wrap;
+}
+.flex-item {
+	height: 150px;
+	min-width: 150px;
+	background: blue;
+	margin: 10px;
+		flex-grow: 1;
+}
+#box1 {
+	align-self: center;
+	background: red;
+	order: 5;
+}
+#box2 {
+	align-self: flex-end;
+	background: green;
+}
+#box3 {
+	margin-left: auto;
+	background: pink;
+}
+#box4 {
+	margin-top: auto;
+	background: yellow;
+}
+#box5 {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	background: black;
+    flex-basis: 300px;
+    flex-shrink: 0;
+	color: white;
+	order: 4;
+}

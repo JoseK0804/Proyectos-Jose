@@ -1,0 +1,13 @@
+body {
+	background: #aaa;
+	font-family: arial;
+}
+.grande {
+	font-size: 50px;
+	background: #fff;
+	color: #000;
+}
+
+.bonito {
+	padding: 25px;
+}

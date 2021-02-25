@@ -1,0 +1,108 @@
+.Block {
+	height: 100px;
+	width: 100px;
+	border: 20px solid blue;
+	background: red;
+	margin: 10px
+}
+.inline {
+	height: 100px;
+	width: 100px;
+	border: 20px solid blue;
+	background: red;
+	margin: 10px;
+	display: inline;
+}
+.inline-Block{
+	height: 100px;
+	width: 100px;
+	border: 20px solid blue;
+	background: red;
+	margin: 10px;
+	display: inline-block;
+}
+.Contenedor {
+	height: 300px;
+	width: 300px;
+	border: 20px solid black;
+	background: yellow;
+	margin: 10px;
+	overflow: auto;
+}
+.img{
+	height: 350px;
+	width: 350px;
+}
+.Contenedor2 {
+	height: 300px;
+	width: 300px;
+	border: 20px solid black;
+	background: yellow;
+	margin: 10px;
+	overflow: hidden;
+}
+.Contenedor3{
+	height: 300px;
+	width: 300px;
+	border: 20px solid black;
+	background: yellow;
+	margin: 10px;
+	overflow: scroll;
+}
+.img2 {
+	width: 1000px;
+	position: relative;
+	top: 260px;
+	left: 140px;
+	outline: 2px solid red;
+	transition: all 1.3s;
+}
+.Contenedor4:hover > .img2 {
+	width: 1000px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+}
+.Contenedor4{
+	height: 300px;
+	width: 300px;
+	border: 20px solid black;
+	background: yellow;
+	margin: 10px;
+    overflow: hidden;
+}
+.Contenedor5 {
+	height: 800px;
+	width: 800px;
+	border: 50px solid blue;
+	background: black;
+	color: white;
+	float: left;
+	overflow: hidden;
+	display: block;
+margin: 50px 300px;
+padding: 20px;
+}
+.img3 {
+	float: right;
+	height: 250px;
+	width: 250px;
+}
+
+/*
+.img3{
+	width: 1000px;
+	position: relative;
+	top: 260px;
+	left: 140px;
+	outline: 2px solid red;
+	transition: all 1.3s;
+}
+.Contenedor6:hover> .img3{
+	width: 1000px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+}

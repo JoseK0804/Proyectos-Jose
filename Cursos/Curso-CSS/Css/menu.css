@@ -1,0 +1,90 @@
+h1 {
+padding-top: 70px;
+}
+.menumobile__ul {
+	display: none;
+}
+.menu__nav {
+	background: blue;
+}
+.menu__li {
+	display: inline-block;
+	padding: 20px;
+	color: white;
+}
+.menu__li a {
+	color: white;
+	text-decoration: none;
+}
+.menu__li i {
+	width: 20px;
+	text-align: center;
+	margin-right: 4px;
+}
+.menu__li:hover > a {
+	color: black;
+}
+.menu__li:hover > i {
+	color: black;
+}
+@media only screen and (max-width: 550px) {
+	.menu__ul {
+		display: none;
+	}
+	.menumobile__ul {
+		display: block;
+	}
+	.menumobile__boton-container{
+		position: absolute;
+		background: black;
+		width: 100%;
+		margin-top: -25px;
+		z-index: 100;
+	}
+	.menumobile__boton {
+		padding: 15px;
+		font-size: 30px;
+		color: white;
+	}
+	.menumobile__li-container{
+		position: relative;
+		margin-top: 30px;
+		top: -1000px;
+		height: clac(100vh-50px);
+	    background: black;
+	    transition: all 1.5s;
+	    z-index: 1
+	}
+	.menumobile__ul {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 25px;
+		transition: all 1.5s;
+	}
+	.menumobile__li {
+	display: block;
+	padding: 10px;
+	color: white;
+}
+.menumobile__li a {
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+.menumobile__li i {
+	width: 20px;
+	text-align: center;
+	margin-right: 4px;
+}
+.menumobile__li:hover > a {
+	color: red;
+}
+.menumobile__li:hover > i {
+	color: red;
+}
+.menumobile__ul:hover > .menumobile__li-container {
+	top: 0;
+
+}
+}

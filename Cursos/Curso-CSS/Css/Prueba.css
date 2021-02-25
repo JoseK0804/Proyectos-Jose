@@ -1,0 +1,146 @@
+.Box1 {
+	width: 300px;
+	height: 300px;
+	background: yellow;
+    margin: auto;
+    border: 15px solid red;
+
+}
+.Box2 {
+	width: 300px;
+	height: 300px;
+	background: blue;
+    margin: auto;
+    outline:15px solid black;
+}
+.Box3 {
+	outline: 9px solid blue;
+	width: 300px;
+	height: 300px;
+	background: red;
+	display: inline-block;
+}
+.Box4 {
+	outline: 9px solid black;
+	width: 300px;
+	height: 300px;
+	background: red;
+	display: inline-block;
+}
+.Box5 {
+	outline: 9px solid orange;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background: red;
+	display: inline-block;
+}
+.Box6 {
+	border: 9px solid purple;
+	width: 300px;
+	height: 300px;
+	background: red;
+	display: inline-block;
+
+}
+
+.pocisionamiento__2 {
+	width: 120px;
+	height: 120px;
+	display: block;
+	background: green;
+	position: relative;
+	left: 50px;
+	top: 50px;
+	z-index: 1;
+} 
+.pocisionamiento__3 {
+	width: 120px;
+	height: 120px;
+	display: block;
+	background: blue;
+	position: relative;
+} 
+ 
+.Padre {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	background: red;
+	margin: 50px;
+
+} 
+.Hijo {
+	width: 120px;
+	height: 120px;
+	position: relative;
+	background: yellow;
+	margin: 40px;
+	top: -20px;
+	left: -50px;
+	z-index: -1;
+}
+#Boxmama {
+    width: 800px;
+	height: 800px;
+	background: red;
+	margin: 10px auto;
+	position: relative;
+	border: 10px solid blue;
+}
+#Box1 {
+	width: 200px;
+	height: 200px;
+	background: orange;
+	position: absolute;
+}
+#Box2 {
+	width: 200px;
+	height: 200px;
+	background: silver;
+	position: absolute;
+	opacity: 0.5;
+    right : 0;
+}
+#Box3 {
+	width: 200px;
+	height: 200px;
+	background: purple;
+	position: absolute;
+	bottom: 0;
+}
+#Box4 {
+	width: 200px;
+	height: 200px;
+	background: skyblue;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#Box5 {
+	width: 200px;
+	height: 200px;
+	background: skyblue;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	margin: auto;
+}
+.TextoFijo {
+	background: blue;
+	position: fixed;
+	margin-top: -100px;
+}
+
+body {
+	padding-top: 100px;
+}
+.hello { 
+	background: red;
+	position: sticky;
+	opacity: .5;
+	top: -10px;
+}

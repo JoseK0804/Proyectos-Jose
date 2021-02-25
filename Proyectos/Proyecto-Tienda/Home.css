@@ -1,0 +1,136 @@
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+.img_nav {
+  height: 50px;
+  width: 50px;
+}
+.a_nav {
+  color: #000;
+}
+.a_logo {
+  margin-left: 20px;
+}
+.a_nav:first-child {
+margin-left: 50px;
+}
+.p_nav {
+  margin-top: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+.principio {
+  background-color: #8e997d;
+  height: 25px;
+}
+#alto {
+  height: 90vh;
+}
+.img_bannerVertical {
+  height: 100vh;
+  width: 100%;
+  margin-top: 10px;
+}
+.container_principal {
+  margin-top: 20px;
+}
+.banner_Horizontal {
+  width: 100%;
+  margin-top: 10px;
+  height: 200px;
+}
+.estilo {
+  font-size: 40px;
+  font-family: Montserrat-Bold;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #ce6f6b;
+}
+.iconos_redes {
+  height: 45px;
+  width: 45px;
+  margin:10px ;
+}
+.img_bannerVertical2 {
+  width: 100%;
+  height: 100%;
+}
+.separacion {
+  margin-bottom: 10px;
+}
+.linea {
+  margin-top: 25px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 35px;
+}
+.footer_h5 {
+  margin-bottom: 20px;
+  color: #000;
+  /* font-family: Montserrat-Bold; */
+  font-size: 14px;
+  font-weight: bold;
+}
+.footer_ul {
+  list-style: none;
+}
+.footer_li {
+  color: #000;
+  /* font-family: Montserrat-Bold; */
+  font-size: 13px;
+  /* font-weight: bold; */
+  margin-left: -20px;
+  margin-bottom: 9px;
+}
+.footer_input {
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+.footer_span {
+  margin-top: 10px;
+  float: left;
+  display: block;
+  width: 100%;
+}
+.precio {
+  color: rgb(33, 167, 0);
+  font-weight: 600;
+}
+.card {
+  margin: 7px;
+  box-shadow: 1px 1px 3px #000;
+}
+.card_buttom {
+  background-color: #0f0;
+  border: 1px solid #000;
+}
+.card_img {
+  width: 100%;
+  height: 500px;
+}
+.nav_dropdown {
+  margin-right: -25px;
+  margin-left: 15px;
+}

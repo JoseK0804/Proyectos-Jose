@@ -1,0 +1,164 @@
+body {
+	font-family: 'Nerko One', cursive;
+}
+.menu__nav {
+	background: #000;
+	border-bottom: 2px solid #ff33bb;
+}
+.menu__li {
+	display: inline-block;
+	padding: 20px;
+	color: #fff;
+	margin-left: 95px;
+}
+.menu__li a {
+	color: #fff;
+	text-decoration: none;
+}
+.menu__li i {
+	width: 20px;
+	text-align: center;
+	margin-right: 4px;
+	color: #fff;
+}
+.menu__li:hover > a {
+	color: #ff33bb;
+	text-shadow:  0px 0px 10px #fff;
+}
+.menu__li:hover > i {
+	color: #ff33bb;
+	text-shadow:  0px 0px 10px #fff;
+}
+.logo_nav {
+	margin-left: 50px;
+	height: 25px;
+	width: 25px;
+}
+
+}
+.grid-container {
+	background: #ccc;
+	display: grid;
+	height: 100vh;
+	grid-template-areas: 
+	"header header header"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"footer footer footer"
+}
+.grid-header {
+	grid-area: header;
+	height: 50px;
+}
+.grid-main {
+	grid-area: main;
+	display: grid;
+	grid-template-areas:
+	"fondo" 
+	"contenedor"
+	"contenedor2"
+	"contenedor3"
+	"contenedor4"
+}
+.grid-footer {
+	background: #000;
+	grid-area: footer ;
+	color: #fff;
+}
+ul li {
+	display: inline-block;
+}
+.grid__container-footer {
+	display: grid;
+	grid-template-areas: 
+	"Contacto Red Legal";
+	font-size: 20px;
+}
+.Contacto {
+	grid-area: Contacto;
+}
+.Red {
+	grid-area: Red;
+	margin-left: 200px;
+}
+.Red i {
+	color: #fff;
+}
+.Red a {
+	color: #fff;
+	text-decoration: none;
+}
+.legal {
+	grid-area: legal;
+	margin-bottom: 20px;
+}
+.footer__li	{
+	display: block;
+}
+.item-footer {
+	padding: 25px;
+}
+#legal {
+	margin-top: -130px;
+}
+#a {
+	grid-area: texto1;
+}
+#b {
+	grid-area: texto2;
+}
+#c {
+	grid-area: texto3;
+}
+.contenedor_div {
+	padding: 15px;
+	margin-left: 75px;
+}
+.fondoo {
+	height: 100vh;
+	width: 100%;
+	grid-area: fondo;
+}
+
+.contenedor {
+	margin-right: 350px;
+	width: 1100px;
+	height: 375px;
+	border-top: 3px solid #ff33bb;
+	border-bottom: 3px solid #ff33bb;
+	float: right;
+	display: block;
+	margin-bottom: 25px;
+}
+.imagen {
+	float: left;
+	height: 275px;
+	padding: 15px;
+	margin-top: 45px;
+}
+.titulo {
+	font-size: 55px;
+	font-family: arial;
+	margin-left: 25px;
+	font-family: 'Nerko One', cursive;
+}	
+.titulo:hover {
+	transition: 1s;
+	text-shadow: 0px 0px 15px #ff33bb;
+}
+.texto {
+	font-size: 40px;
+	font-family: arial;
+	margin-left: 25px;
+	font-family: 'Nerko One', cursive;
+}
+.texto:hover {
+	transition: 1s;
+	text-shadow: 0px 0px 15px #ff33bb;
+}

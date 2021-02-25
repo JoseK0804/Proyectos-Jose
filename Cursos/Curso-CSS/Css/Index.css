@@ -1,0 +1,68 @@
+.Prueba__h2 {
+	display: inline-block;
+background-color: black;
+color: white;
+padding: 100px;
+border-radius: 50px;
+border: 10px solid orange;
+margin: 10px;
+box-shadow: 2px 4px 15px 0 black;
+text-shadow: 2px 2px 7px white, 2px 2px 7px white, 2px 2px 7px white;
+transform: rotate(45deg);
+}
+.Prueba__h2--2 {
+	display: inline-block;
+background-color: blue;
+color: black;
+padding: 100px;
+margin: 10px;
+border-radius: 50%;
+border: 50px double red;
+transform: rotate(45deg);
+}
+.Prueba__h2--3 {
+	display: inline-block;
+background-color: green;
+color: yellow;
+padding: 100px;
+margin: 10px;
+border-radius: 20%;
+border: 50px dashed silver;
+transform: rotate(-45deg);
+}
+.Prueba__h2--4 {
+	display: inline-block;
+background-color: purple;
+color: yellow;
+padding: 100px;
+margin: 10px;
+border-radius: 20%;
+border: 50px groove pink;
+}
+.Prueba__h2--5 {
+	display: inline-block;
+background-color: violet;
+color: yellow;
+padding: 100px;
+margin: 10px;
+border-radius: 20%;
+border: 50px inset brown;
+}
+.Prueba__h2--6 {
+	display: inline-block;
+background-color: silver;
+color: yellow;
+padding: 100px;
+margin: 10px;
+border-radius: 20%;
+border: 50px outset gray;
+}
+.Prueba__h2--7 {
+	display: inline-block;
+background-color blue;
+color: yellow;
+padding: 100px;
+margin: 10px;
+border-radius: 20%;
+border: 50px ridge purple;
+}

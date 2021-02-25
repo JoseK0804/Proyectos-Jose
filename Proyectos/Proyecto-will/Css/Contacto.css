@@ -1,0 +1,231 @@
+/*Menu parte superior, adaptable a mobile / header*/
+.menumobile__ul {
+	display: none;
+}
+.menu__nav {
+	background: #CCC;
+}
+.menu__li {
+	display: inline-block;
+	padding: 20px;
+	color: white;
+	/*text-align: center;*/
+	margin-left: 95px;
+
+}
+.menu__li a {
+	color: #000;
+	text-decoration: none;
+}
+.menu__li i {
+	width: 20px;
+	text-align: center;
+	margin-right: 4px;
+	color: #000;
+}
+.menu__li:hover > a {
+	color: black;
+}
+.menu__li:hover > i {
+	color: black;
+}
+@media only screen and (max-width: 905px) {
+	.menu__ul {
+		display: none;
+	}
+	.menumobile__ul {
+		display: block;
+	}
+	.menumobile__boton-container{
+		position: absolute;
+		background: #CCC;
+		width: 100%;
+		margin-top: -20px;
+		z-index: 100;
+	}
+	.menumobile__boton {
+		padding: 15px;
+		font-size: 25px;
+		color: white;
+		margin-top: 10px;
+
+	}
+	.menumobile__li-container{
+		position: relative;
+		margin-top: 30px;
+		top: -1000px;
+		height: clac(100vh-50px);
+	    background: black;
+	    transition: all 1.5s;
+	    z-index: 1
+	}
+	.menumobile__ul {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 25px;
+		transition: all 1.5s;
+	}
+	.menumobile__li {
+	display: block;
+	padding: 10px;
+	color: white;
+}
+.menumobile__li a {
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+.menumobile__li i {
+	width: 20px;
+	text-align: center;
+	margin-right: 4px;
+}
+.menumobile__ul:hover > .menumobile__li-container {
+	top: 0;
+
+}
+/*Separacion de la pagina*/
+}
+.grid-container {
+	background: #ccc;
+	/*margin: 10px;*/
+	display: grid;
+	height: 100vh;
+	grid-template-areas: 
+	"header header header"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"footer footer footer"
+}
+.grid-header {
+	background: #ccc;
+	grid-area: header ;
+	height: 50px;
+	z-index: 1;
+}
+.grid-aside {
+	background: #ccc;
+	grid-area:aside ;
+	width: 100px;	
+	z-index: 3;
+	margin-top: -45px;
+}
+.grid-main {
+	background: #ffffff;
+	grid-area: main ;
+	padding: 15px;
+}
+.grid-footer {
+	background: #000;
+	/*margin-bottom: 15px; */
+	/*padding: 10px;*/
+	grid-area: footer ;
+	color: #fff;
+	/*height: 10px;*/
+}
+ul li {
+	display: inline-block;
+}
+@media only screen and (max-width: 905px) { 
+	.grid-aside {
+	display: none;
+}
+
+}
+
+
+.lateral {
+
+}
+.lateral__li a {
+	color: #000;
+	text-decoration: none;
+
+
+}
+.lateral__li i {
+		margin-top: 55px;
+		margin-left: 9px;
+}
+
+.grid__container-footer {
+	display: grid;
+	grid-template-areas: 
+	"Contacto Red Legal";
+/*	"Contacto Red Legal"*/
+	font-size: 10px;
+}
+
+.Contacto {
+	grid-area: Contacto
+
+}
+.Red {
+	grid-area: Red;
+	margin-left: 200px;
+
+}
+.Red i {
+	color: #fff;
+}
+.Red a {
+	color: #fff;
+	text-decoration: none;
+}
+.legal {
+	grid-area: legal;
+	margin-top: -40px;
+
+}
+.footer__li	{
+	/*color: red;*/
+	display: block;
+}
+img {
+	width: 70px;
+	height: 70px;
+	/*padding: 20px;*/
+	/*margin-top: 10px;*/
+	margin-left: 15px;
+}
+.title {
+       font-family: 'Lobster', cursive;
+      text-align: center;
+      font-size: 70px;
+}
+.description {
+	font-size: 30px; 
+}
+.trabajadores {
+	background: #f2f2f2;
+	padding: 15px;
+	border: 4px solid #333333;
+	float: left;
+	margin-top: 15px;
+}
+.wil {
+	float: right;
+	border: 4px solid #333333;
+	width: 300px;
+	height: 400px;
+}

@@ -1,0 +1,153 @@
+body {
+	font-family: 'Nerko One', cursive;
+}
+.menu__nav {
+	background: #000;
+	border-bottom: 2px solid #ff33bb;
+}
+.menu__li {
+	display: inline-block;
+	padding: 20px;
+	color: #fff;
+	margin-left: 95px;
+}
+.menu__li a {
+	color: #fff;
+	text-decoration: none;
+}
+.menu__li i {
+	width: 20px;
+	text-align: center;
+	margin-right: 4px;
+	color: #fff;
+}
+.menu__li:hover > a {
+	color: #ff33bb;
+	text-shadow:  0px 0px 10px #fff;
+}
+.menu__li:hover > i {
+	color: #ff33bb;
+	text-shadow:  0px 0px 10px #fff;
+}
+.logo_nav {
+	margin-left: 50px;
+	height: 25px;
+	width: 25px;
+}
+
+}
+.grid-container {
+	background: #ccc;
+	display: grid;
+	height: 100vh;
+	grid-template-areas: 
+	"header header header"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"footer footer footer"
+}
+.grid-header {
+	grid-area: header;
+	height: 50px;
+}
+.grid-main {
+	grid-area: main;
+	display: grid;
+	grid-template-areas:
+	"fondo" 
+	"contenedor"
+	"contenedor2"
+	"contenedor3"
+	"contenedor4"
+}
+.grid-footer {
+	background: #000;
+	grid-area: footer ;
+	color: #fff;
+}
+ul li {
+	display: inline-block;
+}
+.grid__container-footer {
+	display: grid;
+	grid-template-areas: 
+	"Contacto Red Legal";
+	font-size: 20px;
+}
+.Contacto {
+	grid-area: Contacto;
+}
+.Red {
+	grid-area: Red;
+	margin-left: 200px;
+}
+.Red i {
+	color: #fff;
+}
+.Red a {
+	color: #fff;
+	text-decoration: none;
+}
+.legal {
+	grid-area: legal;
+	margin-bottom: 20px;
+}
+.footer__li	{
+	display: block;
+}
+.item-footer {
+	padding: 25px;
+}
+#legal {
+	margin-top: -130px;
+}
+#a {
+	grid-area: texto1;
+}
+#b {
+	grid-area: texto2;
+}
+#c {
+	grid-area: texto3;
+}
+.contenedor {
+	transform: translateY(20px);
+	/*padding: 20px;*/
+	margin: auto;
+	width: 1300px;
+	/*border: 1px solid #000;*/
+}
+.contenedor__ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.contenedor__li {
+	width: 300px;
+	float: left;
+	border: 1px solid #ff33bb;
+	text-align: center;
+	margin: 9px;
+	border-radius: 20px;
+	transition: 1s;
+}
+.producto {
+	border-radius: 20px;
+	height: 300px;
+	width: 300px;
+}
+.texto {
+	text-align: justify;
+	margin: 7px;
+}
+.contenedor__li:hover {
+	background: #000;
+	color: #ff33bb;
+	transform: scale(1.1);
+}

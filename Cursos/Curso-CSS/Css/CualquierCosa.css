@@ -1,0 +1,80 @@
+* {
+	margin: 0px;
+    padding: 0px;
+    font-family: Vampiro One, cursive;;
+}
+.Title {
+    font-size: 20px;
+	background-color: yellow;
+
+}
+.Title__h6 {
+	font-size: 3em;
+	font-stretch: normal;
+	font-variant: small-caps;
+	font-weight: 700;
+		line-height: 2;
+		color: white;
+}
+.Title__h2 {
+	font-family: georgia;
+}
+.Parrafo {
+	font-size: 1px;
+	background-color: blue;
+}
+.Parrafo__P {
+font-size: 20em;
+}
+.Letter {
+	font-size: 20px;
+		background-color: red;
+}
+.Letter__b{
+display: block;
+}
+.Letter__i { 
+display: block;
+}
+.Letter__small {
+
+	display: block;
+}
+.Letter__strike {
+
+	display: block;
+}
+.Links {
+	background-color: black;
+color: white;
+}
+.Links__a--all {
+display:inline-block;
+padding-bottom: 50px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+background-color: green;
+text-align: center;
+}
+.Links__a--all2{
+display:inline-block;
+padding: 50px 50px 50px 50px;
+background-color: green;
+text-align: center;
+}
+.Links__a--xy{
+display:inline-block;
+padding: 50px 50px;
+background-color: green;
+text-align: center;
+}
+.Links__a--all3{
+display:inline-block;
+padding: 50px 50px 50px;
+background-color: green;
+width: 200px;
+height: 200px;
+box-sizing: content-box;
+text-align: center;
+}

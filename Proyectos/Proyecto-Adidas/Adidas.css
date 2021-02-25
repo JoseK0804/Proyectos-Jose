@@ -1,0 +1,148 @@
+.menu__nav {
+	background: #000;
+}
+.menu__li {
+	display: inline-block;
+	padding: 20px;
+	color: #fff;
+	margin-left: 95px;
+}
+.menu__li a {
+	color: #fff;
+	text-decoration: none;
+}
+.menu__li i {
+	width: 20px;
+	text-align: center;
+	margin-right: 4px;
+	color: #fff;
+}
+.menu__li:hover > a {
+	color: #ff0000;
+}
+.menu__li:hover > i {
+	color: #ff0000;
+}
+
+}
+.grid-container {
+	background: #ccc;
+	display: grid;
+	height: 100vh;
+	grid-template-areas: 
+	"header header header"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"main main"
+	"footer footer footer"
+}
+.grid-header {
+	grid-area: header;
+	height: 50px;
+}
+.grid-main {
+	grid-area: main ;
+	padding: 15px;
+	background-image: url(fondo.jpg);
+	display: grid;
+	grid-template-areas: 
+	"logo zapatilla"
+	"texto1 zapatilla"
+	"texto2 zapatilla"
+	"texto3 zapatilla"
+}
+.grid-footer {
+	background: #000;
+	grid-area: footer ;
+	color: #fff;
+}
+ul li {
+	display: inline-block;
+}
+.grid__container-footer {
+	display: grid;
+	grid-template-areas: 
+	"Contacto Red Legal";
+	font-size: 20px;
+}
+.Contacto {
+	grid-area: Contacto;
+}
+.Red {
+	grid-area: Red;
+	margin-left: 200px;
+}
+.Red i {
+	color: #fff;
+}
+.Red a {
+	color: #fff;
+	text-decoration: none;
+}
+.legal {
+	grid-area: legal;
+	margin-bottom: 20px;
+}
+.footer__li	{
+	display: block;
+}
+.logo {
+	height: 200px;
+	width: 250px;
+	margin-left: 100px;
+	filter: drop-shadow(0px 0px 15px #fff);
+	grid-area: logo;
+}
+.texto {
+	color: #000;
+	text-shadow: 0px 0px 15px #fff;
+	font-size: 45px;
+	font-family: 'Lato', sans-serif;
+	margin-left: 25px;
+}
+.texto:hover {
+	transition: 2s;
+	text-shadow: 0px 0px 15px #ff0000;
+}
+.zapatilla {
+	height: 700px;
+	width: 700px;
+	margin-left: -100px;
+	grid-area: zapatilla;
+	filter: drop-shadow(0px 0px 15px #fff);
+}
+.item-footer {
+	padding: 25px;
+}
+#legal {
+	margin-top: -130px;
+}
+@keyframes trasladar {
+	0% {
+		transform: translate(0);
+	}
+	100% {
+		transform: translate(250px);
+	}
+}
+.zapatilla {
+	animation: trasladar 2s alternate infinite;
+}
+
+#a {
+	grid-area: texto1;
+}
+#b {
+	grid-area: texto2;
+}
+#c {
+	grid-area: texto3;
+}
+body{
+   overflow-x: hidden;
+}
